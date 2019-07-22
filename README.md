@@ -9,22 +9,22 @@
 - An -LSU
 
 ## 2. Goals by members
-### Chen's goals
+### 2.1 Chen's goals
 - goal_1
 - goal_2
 - goal_3
 
-### Jay's goals
+### 2.2 Jay's goals
 - goal_1
 - goal_2
 - goal_3
 
-### An's goals
+### 2.3 An's goals
 - keywords: container, singularity, GitHub, DockerHub, wiki, Dockerfile, Jupyter notebook, 
 - goal_2
 - goal_3
 
-### Synthesized goals 
+### 2.4 Synthesized goals 
 - goal_1
 - goal_2
 - goal_3
@@ -45,7 +45,8 @@ Sadler et al. 2018 paper Hydroshare repository - https://www.hydroshare.org/reso
 Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
 
 ## 5. Tasks - Hydrology project
-- [] download all raw materials to Github
+- [] download all raw materials to Github repository
+- [] Jetstream VM to test python code (note: need python version 2.7 )
 
 ## 6. Tasks - Seismology project
 
