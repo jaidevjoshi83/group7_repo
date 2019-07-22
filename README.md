@@ -1,6 +1,6 @@
 # This is a repository for group 7 project
 
-![group7_logo](#https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
+![group7_logo](https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
 
 
 ## 1. Group members
