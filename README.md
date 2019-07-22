@@ -1,6 +1,6 @@
 # This is a repository for group 7 project
 
-![optional caption text](https://cybercarpentry.slack.com/files/ULFV2HKV5/FLMQ6MPU4/image.png)
+![group7_logo](#https://cdn.archonia.us/images/1-63650-1-1-original1/naruto-shippuden-fabric-poster-team-7.jpg)
 
 
 ## 1. Group members
@@ -33,3 +33,4 @@
 https://github.com/orgs/cyber-carpentry/projects/5
 
 
+######(222 kB)
