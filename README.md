@@ -20,7 +20,7 @@
 - goal_3
 
 ### An's goals
-- goal_1
+- keywords: container, singularity, GitHub, DockerHub, wiki, Dockerfile, Jupyter notebook, 
 - goal_2
 - goal_3
 
@@ -29,7 +29,25 @@
 - goal_2
 - goal_3
 
-## 3. Project board
+## 3. Collaboration platforms
+
+### 3.1 Github repository
+https://github.com/cyber-carpentry/group7_repo.git
+
+### 3.2 Github project board
 https://github.com/orgs/cyber-carpentry/projects/5
+
+
+## 4. Raw materials
+Sadler et al. 2018 paper preprint - http://faculty.virginia.edu/goodall/Sadler_JHE_2018_Preprint.pdf
+Sadler et al. 2018 paper GitHub repository - https://github.com/uva-hydroinformatics/flood_data
+Sadler et al. 2018 paper Hydroshare repository - https://www.hydroshare.org/resource/9db60cf6c8394a0fa24777c8b9363a9b/
+Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
+
+## 5. Tasks - Hydrology project
+- [] download all raw materials to Github
+
+## 6. Tasks - Seismology project
+
 
 
