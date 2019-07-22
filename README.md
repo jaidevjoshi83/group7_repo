@@ -1,11 +1,11 @@
 # This is a repository for group 7 project
 
-## Group members
+## 1. Group members
 - Chen
 - Jay
 - An
 
-## Goals by members
+## 2. Goals by members
 ### Chen's goals
 - goal_1
 - goal_2
@@ -25,3 +25,5 @@
 - goal_1
 - goal_2
 - goal_3
+
+## 3. 
