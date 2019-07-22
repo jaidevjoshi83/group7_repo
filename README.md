@@ -1,5 +1,8 @@
 # This is a repository for group 7 project
 
+![optional caption text](https://cybercarpentry.slack.com/files/ULFV2HKV5/FLMQ6MPU4/image.png)
+
+
 ## 1. Group members
 - Chen -MIT
 - Jay -Cleveland Clinic
