@@ -45,6 +45,8 @@ Sadler et al. 2018 paper Hydroshare repository - https://www.hydroshare.org/reso
 Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
 
 ## 5. Tasks - Hydrology project
+- [x] done
+- [] undone
 - [] download all raw materials to Github repository
 - [] Jetstream VM to test python code (note: need python version 2.7 )
 
