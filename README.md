@@ -4,9 +4,9 @@
 
 
 ## 1. Group members
-- Chen -MIT
-- Jay -Cleveland Clinic
-- An -LSU
+- _Chen_ -MIT
+- _Jay_ -Cleveland Clinic
+- _An_ -LSU
 
 ## 2. Goals by members
 ### 2.1 Chen's goals
@@ -44,13 +44,22 @@ Sadler et al. 2018 paper GitHub repository - https://github.com/uva-hydroinforma
 Sadler et al. 2018 paper Hydroshare repository - https://www.hydroshare.org/resource/9db60cf6c8394a0fa24777c8b9363a9b/
 Other materials https://drive.google.com/drive/folders/1T4bUQztoRkm5S6P6fnpC-a5FttteE-jz
 
-## 5. Tasks - Hydrology project
+## 5. Deliverables
+### 5.1 Hyrology project deliverables
+- A dockerfile with all required environment configuration. Upload the file to Github repository
+- A pre-built image upload to DockerHub
+- A singularity
+
+### 5.2 Seismology project deliverables
+
+## 6. Tasks
+### 6.1 Hydrology project tasks
 - [x] done       - [] undone
 - [] read the paper
 - [] download all raw materials to Github repository
 - [] Jetstream VM to test python code (note: need python version 2.7 )
 
-## 6. Tasks - Seismology project
+### 6.2 Seismology project tasks
 
 
 
