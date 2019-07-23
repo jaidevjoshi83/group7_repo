@@ -57,7 +57,7 @@ https://github.com/orgs/cyber-carpentry/projects/5
 **Phases**
 - project preparation: read paper, make plan, gather script and data
 - run single script, e.g. data preprocessing, using container
-- run multiple scripts pipeline using workflow using container
+- run multiple scripts pipeline using workflow
 - push container to DockerHub
 - try singularity
 
