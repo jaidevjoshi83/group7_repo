@@ -20,7 +20,7 @@
 - goal_3
 
 ### 2.3 An's goals
-- keywords: container, singularity, GitHub, DockerHub, wiki, Dockerfile, Jupyter notebook, 
+- keywords: container, singularity, GitHub, DockerHub, wiki, Dockerfile, Jupyter notebook, workflow
 - goal_2
 - goal_3
 
