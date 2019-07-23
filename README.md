@@ -54,6 +54,14 @@ https://github.com/orgs/cyber-carpentry/projects/5
 
 ## 6. Tasks
 ### 6.1 Hydrology project tasks
+**Phases**
+- project preparation: read paper, make plan, gather script and data
+- run single script, e.g. data preprocessing, using container
+- run multiple scripts pipeline using workflow using container
+- push container to DockerHub
+- try singularity
+
+**Detailed tasks**
 - [x] done       - [] undone
 - [] read the paper
 - [] download all raw materials to Github repository
