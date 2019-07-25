@@ -1,0 +1,59 @@
+
+configfile:
+    "config.json"
+
+rule all:
+    input:
+        config['data']+"/out_files/step2/step_2.csv",
+        config['data']+"/out_files/step3/step_3.csv",
+        config['data']+"/step4/poisson_out_test.csv",
+        config['data']+"/step4/poisson_out_train.csv",
+        config['data']+"/step4/rf_out_test.csv",
+        config['data']+"/step4/rf_out_train.csv",
+        config['data']+"/step4/rf_impo_out"
+
+rule step1:
+    input:
+        config['data']+"/step1/STORM_data_flooded_streets_2010-2016.csv"
+    output:
+        config['data']+"/out_files/step1/step_1.csv"
+    conda:
+      "jai.yaml"   
+
+    shell:
+        "python2.7 /data/step1/prepare_flood_events_table_NEW.py -I {input} -O {output}"
+
+rule step2:
+    input:
+        config['data']+"/step2/hampt_rd_data.sqlite"
+    output:
+        config['data']+"/out_files/step2/step_2.csv"
+    conda:
+      "jai.yaml"
+    shell:
+        "python2.7 /data/step2/make_dly_obs_table_standalone_NEW.py -I {input} -O {output}"
+
+rule step3:
+    input:
+        i_1 = config['data']+"/out_files/step1/step_1.csv",
+        i_2 = config['data']+"/out_files/step2/step_2.csv"
+    output:
+        config['data']+"/out_files/step3/step_3.csv"
+    conda:
+      "jai.yaml"
+    shell:
+        "python2.7 /data/step3/by_event_for_model_NEW.py -i {input.i_1} -I {input.i_2} -O {output}" 
+   
+rule step4:
+    input:
+        config['data']+"/out_files/step3/step_3.csv"
+    output:
+        config['data']+"/step4/poisson_out_test.csv",
+        config['data']+"/step4/poisson_out_train.csv",
+        config['data']+"/step4/rf_out_test.csv",
+        config['data']+"/step4/rf_out_train.csv",
+        config['data']+"/step4/rf_impo_out"
+
+    shell:
+        "Rscript /data/step4/model_flood_counts_rf_ps_cln_NEW.r {input} /data/step4" 
+

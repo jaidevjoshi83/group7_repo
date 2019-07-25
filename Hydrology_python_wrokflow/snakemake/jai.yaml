@@ -1,0 +1,15 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+
+channels:
+ - bioconda
+ - conda-forge
+ - anaconda 
+dependencies:
+- python=2.7.15
+- matplotlib=2.2.4
+- numpy=1.16.4
+- pandas=0.24.2
+
+

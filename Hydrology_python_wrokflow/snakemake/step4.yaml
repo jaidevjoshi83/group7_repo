@@ -1,0 +1,12 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+
+
+channels:
+  - r
+dependencies:
+ - r-randomforest=4.6_14
+ - r-caret
+
+
